@@ -2,6 +2,17 @@ body {
 	background-color: pink;
 }
 
+
+/*=====images======*/
+img {
+	max-width: 100%;
+	display: block;
+	height: auto;
+}
+
+
+
+
 /*=======NAVIGATION===========*/
 #main-nav {
 	padding: 0;
@@ -34,13 +45,28 @@ body {
 }
 
 
-/*=====images======*/
-img {
-	max-width: 100%;
-	display: block;
-	height: auto;
+
+
+/*========LAYOUTS========*/
+
+/*=========WEDDING=======*/
+
+.rsvpdets {
+	color: green;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
 }
 
+#rsvp,
+#rsvpwhen,
+#rsvpwhere,
+#rsvpreg {
+	background-color: red;
+}
+
+
+
+/*=====WEDDING PARTY====*/
 #b1,
 #b2,
 #b3,
@@ -54,7 +80,7 @@ img {
 }
 
 
-
+/*=====OUR STORY====*/
 
 #katie,
 #tom {
