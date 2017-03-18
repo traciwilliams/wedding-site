@@ -1,3 +1,35 @@
 body {
 	background-color: pink;
 }
+
+
+/*=======NAVIGATION===========*/
+#main-nav {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100px;
+	background-color: grey;
+	text-align: center;
+	
+}
+
+#main-nav ul {
+	list-style-type: none;
+}
+
+#main-nav li {
+	display: inline;
+	padding: 75px 75px 75px 75px;
+
+}
+
+#main-nav a {
+	text-decoration: none;
+	color: yellow;
+}
+
+#main-nav a:hover {
+	color: white;
+	background-color: black;
+}
