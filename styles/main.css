@@ -11,6 +11,13 @@ img {
 }
 
 
+/* to float images and have text wrapped around it
+need to make ids/classes for the pages
+*/
+img {
+    float: left;
+    margin: 0 0 10px 10px;
+}
 
 
 /*=======NAVIGATION===========*/
@@ -77,6 +84,7 @@ img {
 	width: 33%;
 	background-color: lightgrey;
 	display: inline-block;
+	text-align: left;
 	//padding: 10px 10px 10px 10px;
 
 }
