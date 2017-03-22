@@ -3,34 +3,38 @@
 html,
 body {
   height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	background-color: black;
 }
 
 /*=====images======*/
 img {
+	float: left;
 	max-width: 100%;
 	display: block;
 	height: auto;
 }
 
 
-/* to float images and have text wrapped around it
-need to make ids/classes for the pages
-*/
-img {
-    float: left;
-    margin: 0 0 10px 10px;
-}
 
+.imageMates {
+	padding: 0 10px 0 10px;
+}
 
 /*=======NAVIGATION===========*/
 #main-nav {
 	padding: 0;
 	margin: 0;
 	width: 100%;
-	height: 100px;
-	background-color: grey;
+	height: 35px;
+	background-color: black;
+	font-family: 'Calligraffitti', cursive;
 	text-align: center;
-	//position: fixed;
+	position: fixed;
 	
 }
 
@@ -46,18 +50,15 @@ img {
 
 #main-nav a {
 	text-decoration: none;
-	color: black;
+	color: white;
+	
 }
 
 #main-nav a:hover {
-	color: white;
-	background-color: black;
+	color: #d414b1;
 }
 
 /*========HOME PAGE========*/
-
-
-
 
 .parallax {
   	background-image: url("images/kate-and-tom2bw1.jpg");	
@@ -66,17 +67,24 @@ img {
   	background-position: center;
   	background-repeat: no-repeat;
   	background-size: cover;
- 
-  	//margin: 100px;
 }
 
 .parallax2 {
-    height: 200px;
-    color: black;
-    font-size: 66px;
-    text-align: center;
-    padding: 100px;
-    //margin: 100px;
+    height: 100px;
+    padding: 250px;    
+}
+
+.parallax3 {
+	opacity: 0.6 ;
+	font-family: 'Calligraffitti', cursive;
+	font-size: 50px; 
+	color: #d414b1;
+    text-align: center;	
+}
+
+#parallaximage {
+	width: 50px;
+	height: 30px;
 }
 
 /*========LAYOUTS========*/
@@ -87,19 +95,38 @@ img {
 	color: black;
 	text-align: center;
 	padding: 10px 10px 10px 10px;
+	font-family: 'Calligraffitti', cursive;
+	color: #d414b1;
+	font-size: 22px;
 }
 
 #rsvp,
 #rsvpwhen,
 #rsvpwhere,
 #rsvpreg {
-	background-color: lightgrey;
+	//background-color: lightgrey;
 	//color: black;
 }
 
 
 
 /*=====WEDDING PARTY====*/
+div.imagebox {
+	margin: 20px 0 20px 0;
+	background-color: rgba(204, 188, 201, 0.2);
+}
+
+.imageParty {
+	padding: 20px 10px 50px 10px;
+}
+
+.imagePartyLinks {
+	text-decoration: none;
+	color: #4343d3;
+	font-size: 12px;
+}
+
+
 #b1,
 #b2,
 #b3,
@@ -107,20 +134,35 @@ img {
 #g2,
 #g3 {
 	width: 33%;
-	background-color: lightgrey;
 	display: inline-block;
 	text-align: left;
-	//padding: 10px 10px 10px 10px;
-
 }
 
+#name {
+	font-size: 26px;
+	font-family: 'Calligraffitti', cursive;
+	color: #d414b1;
+	text-align: left;
+}
 
 /*=====OUR STORY====*/
+h1 {
+	padding-top: 50px;
+	padding-left: 20px;
+	font-family: 'Calligraffitti', cursive;
+	color: #d414b1;
+}
+
+p {
+	text-align: justify;
+	color: white;
+}
+
 
 #katie,
 #tom {
 	width: 45%;
-	background-color: lightgrey;
+	background-color: rgba(204, 188, 201, 0.2);
 	display: inline-block;
 	padding: 20px 10px 10px 10px;
 	margin-top: 10px;
@@ -129,9 +171,14 @@ img {
 
 #ourstorypara {
 	width: 100%;
-	background-color: grey;
-	//padding: 50px 10px 10px 10px;
-	margin-top: 10px;
+	height: 300px;
+	padding: 0 10px 10px 10px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	font-family: 'Calligraffitti', cursive;	
+	background-color: black;
+	color: white;
+	text-align: left;
 }
 
 
@@ -140,7 +187,7 @@ img {
 	width: 100%;
 	height: 400px;
 	text-align: center;
-	background-color: white;
+	font-family: 'Calligraffitti', cursive;
 }
 
 .ourstorypics {
@@ -148,7 +195,8 @@ img {
 	text-align: center;
 	display: inline-block;
 	background-color: black;
-	margin-top: 100px;
+	padding-top: 10px;
+	margin-top: 180px;
 	color: white;
 }
 
@@ -157,8 +205,9 @@ img {
 #ourstorypics3,
 #ourstorypics4,
 #ourstorypics5 {
-	padding: 15px 15px 15px 15px;
+	padding: 15px 30px 15px 50px;
 	display: inline-block;
+	text-align: center;
 }
 
 
@@ -166,19 +215,20 @@ img {
 	width: 100%;
 	height: 300px;
 	text-align: center;
-	background-color: white;
+	background-color: #ccbcc9;
 }
 
 
 /*=====FOOTER======*/
 #main-footer {
-	padding: 0;
+	padding-top: 10px;
 	margin: 0;
 	width: 100%;
-	height: 100px;
-	background-color: grey;
-	text-align: center;
-	color: black;
+	height: 30px;
+	font-family: 'Calligraffitti', cursive;
+	text-align: left;
+	text-size: 8px;
+	color: grey;
 	clear: both;
 	
 }
